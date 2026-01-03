@@ -41,6 +41,7 @@ light:
   - `BGR`
   - `BRG`
 
+- **inverted** (*Optional*, boolean): Set to `true` to invert the data signal. Defaults to `false`.
 - **is_rgbw** (*Optional*, boolean): Set to `true` if the strip is RGBW. Defaults to `false`.
 - **is_wrgb** (*Optional*, boolean): Set to `true` if the strip is WRGB. Defaults to `false`.
 - **max_refresh_rate** (*Optional*, [Time](/guides/configuration-types#time)): A time interval used to limit the number of commands a light
